@@ -8,10 +8,10 @@ This assignment demonstrates:
 - running queries on the sample movie dataset
 
 ## Database Used
-- Database: `sample_mflix`
+- Database: `sample_mflix'
 - Collection: `movies`
 
-## Query 1
+## Query No. 1
 Find all movies with runtime greater than 200 minutes in year 1983.  
 The results are sorted by runtime in increasing order and only include `runtime`, `title`, and `year`.
 
@@ -26,7 +26,7 @@ db.movies.find(
 ### Screenshot
 ![Query 1](screenshots/query1_runtime_1983.png)
 
-## Query 2
+## Query No. 2
 Find all movies after year 2014 with imdb rating greater than 9.
 
 ### Query
